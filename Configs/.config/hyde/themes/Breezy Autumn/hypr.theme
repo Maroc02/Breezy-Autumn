@@ -1,0 +1,42 @@
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+
+$GTK_THEME = Gruvbox-Dark
+$ICON_THEME = Gruvbox
+$COLOR_SCHEME = prefer-dark
+
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(FF7979FF) rgba(FF7979CC) 45deg
+    col.inactive_border = rgba(685742CC) rgba(222222AA) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(FF7979FF) rgba(FF7979CC) 45deg
+    col.border_inactive = rgba(685742CC) rgba(222222AA) 45deg
+    col.border_locked_active = rgba(FF7979FF) rgba(FF7979CC) 45deg
+    col.border_locked_inactive = rgba(685742CC) rgba(222222AA) 45deg
+}
+
+decoration {
+    rounding = 10
+    shadow:enabled = false
+
+    blur {
+        enabled = yes
+        size = 4
+        passes = 3
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+    }
+}
+
+layerrule = blur,waybar
