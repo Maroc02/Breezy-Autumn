@@ -31,7 +31,7 @@ Take a closer look at the different **aspects** of **Breezy Autumn**:
 
 To install **Breezy Autumn** on `HyDE Project`, run the following command:
 ```sh
-hydectl theme import --name "Breezy Autumn" --url https://github.com/Maroc02/hyde-themes/tree/Breezy-Autumn
+hydectl theme import --name "Breezy Autumn" --url https://github.com/Maroc02/Breezy-Autumn
 ```
 
 Alternatively, you can import the theme by running:
@@ -45,7 +45,7 @@ Then choose **Breezy Autumn** from the options.
 
 To install **Breezy Autumn** on `Hyprdots`, run the following command:
 ```sh
-Hyde theme import "Breezy Autumn" https://github.com/Maroc02/hyde-themes/tree/Breezy-Autumn 
+Hyde theme import "Breezy Autumn" https://github.com/Maroc02/Breezy-Autumn
 ```
 
 Alternatively, you can import the theme by running:
@@ -59,5 +59,5 @@ Then choose **Breezy Autumn** from the options.
 
 Alternatively, you can use a general option that works on both `HyDE Project` and `Hyprdots`:
 ```sh
-~/HyDE/Scripts/themepatcher.sh "Breezy Autumn" https://github.com/Maroc02/hyde-themes/tree/Breezy-Autumn
+~/HyDE/Scripts/themepatcher.sh "Breezy Autumn" https://github.com/Maroc02/Breezy-Autumn
 ```
