@@ -41,15 +41,15 @@ cursor #FF7979
 cursor_text_color #1B1E28
 
 # Selection highlight
-selection_foreground #C9C1C9
-selection_background #281C2B
+selection_foreground #D7C483
+selection_background #3A2A22
 
 # URL color
 url_color #C9A554
 
 # Window borders
 active_border_color #B36D43
-inactive_border_color #3A3A3A
+inactive_border_color #2E2A25
 bell_border_color #685742
 
 # Tab bar
