@@ -39,4 +39,4 @@ decoration {
     }
 }
 
-layerrule = blur,waybar
+layerrule = blur true, match:class waybar
